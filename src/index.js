@@ -16,6 +16,10 @@ app.post('courses/:id', (request,response) => {
     return response.json( ["course6","course2","course3"] )
 })
 
+app.put('/courses/:id', (request,response) => {
+    return response.json(["course6","course2","course3"] )
+})
+
 app.patch('/courses/id:', (request,response) => {
     return response.json()
 })
